@@ -34,25 +34,27 @@ main {
 .infoBoxOuter {
   display: flex;
   flex-direction: row;
+  padding-top: 25%;
 
 }
 
 .infoBoxInner {
   display: flex;
   flex-direction: column;
-  width: 400px;
+  width: 80vh;
   padding-left: 25px;
 }
 
 .whiteBar {
   width: 10px;
-  height: 100px;
+  height: 200px;
   background-color: white;
 
 }
 
 .dominic {
   font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+  font-size: 3rem;
 
 }
 
