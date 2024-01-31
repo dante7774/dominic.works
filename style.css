@@ -8,6 +8,7 @@ body {
 
 #myVideo {
   position: fixed;
+  object-fit: cover;
   top: 0;
   left: 0;
   width: 100vw;
@@ -27,45 +28,68 @@ a {
 main {
   z-index: 5;
   min-height: 100vh;
-  padding: 30% 10%;
+  padding-top: 25%;
+  padding-left: 10%;
   display: flex;
+  align-items: flex-start;
   flex-direction: column;
-
-  /*
-  flex-direction: column;
-  justify-content: center; 
-  align-items: center;
-  */
   color: white;
 }
 
-.infoBoxOuter {
+/* name containter */
+.nameContainer {
   display: flex;
   flex-direction: row;
-  padding-top: 25%;
+  align-items: flex-end;
+  justify-content: flex-start;
+  
 
 }
 
-.infoBoxInner {
+.whiteBar {
+  width: 10px;
+  height: 200px;
+  background-color: white;
+}
+
+.dominic {
+  font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+  font-size: 50px;
+  padding-left: 20px;
+
+}
+
+/* text containter */
+.textContainer {
   display: flex;
   flex-direction: column;
   width: 80vh;
   padding-left: 25px;
 }
 
-.whiteBar {
-  width: 10px;
-  height: 300px;
+.aboutMe {
+  margin-top: 20px;
+  padding: 10px;
+  height: 10vh;
+  width: 33vw;
+  text-align: left;
+  background-color: black;
+  color: gray;
+  
+}
+
+.email {
+  margin-top: 20px;
+  padding: 10px;
+  height: 5vh;
+  width: 25vw;
+  text-align: left;
   background-color: white;
-
+  color: black;
+  
 }
 
-.dominic {
-  font-family: Arial Black, Arial Bold, Gadget, sans-serif;
-  font-size: 50px;
-  padding-bottom: 20px;
 
-}
 
 .title {
   margin: 0;
