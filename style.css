@@ -28,7 +28,7 @@ a {
 main {
   z-index: 5;
   min-height: 100vh;
-  padding-top: 25%;
+  padding-top: clamp(20px, 20vh, 70vh);
   padding-left: 10%;
   display: flex;
   align-items: flex-start;
@@ -42,7 +42,7 @@ main {
   flex-direction: row;
   align-items: flex-end;
   justify-content: flex-start;
-  
+
 
 }
 
@@ -69,24 +69,36 @@ main {
 
 .aboutMe {
   margin-top: 20px;
-  padding: 10px;
   height: 10vh;
   width: 33vw;
-  text-align: left;
-  background-color: black;
-  color: gray;
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 5px 10px 5px 10px;
+  color: white;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.aboutMe p {
+  margin-left: 10px;
   
 }
 
 .email {
   margin-top: 20px;
-  padding: 10px;
+ 
   height: 5vh;
   width: 25vw;
-  text-align: left;
-  background-color: white;
-  color: black;
-  
+  background-color: rgba(61, 0, 39, 0.7);
+  color: #949494;
+  border-radius: 5px 10px 5px 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center; 
+}
+
+.email a {
+  margin-left: 10px;
 }
 
 
